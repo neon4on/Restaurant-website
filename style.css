@@ -498,7 +498,23 @@ body{
     display: none;
 }
 
+.block {
+    display: block;
+}
 
+.burger-slide {
+    position: absolute;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
 
 @media (max-width: 1500px) {
     .galery-content {
@@ -613,5 +629,28 @@ body{
     }
     .number-item {
         font-size: 23px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .histiory-number {
+        display: block;
+    }
+    .left-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .black-block {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .high {
+        display: none;
+    }
+    .menu-img {
+        width: 250px;
+        height: 250px;
     }
 }
